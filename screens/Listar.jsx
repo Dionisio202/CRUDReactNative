@@ -168,7 +168,7 @@ const StudentList = () => {
       <Text style={styles.title}>Listado de Estudiantes</Text>
       <FlatList
         data={students}
-        keyExtractor={(item) => item.CED_EST}
+        keyExtractor={(item) => item.cedula}
         renderItem={renderItem}
         ItemSeparatorComponent={() => <View style={styles.separator} />}
       />
