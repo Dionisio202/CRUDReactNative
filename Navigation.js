@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import Listar from "./screens/Listar";
-import Guardar from "./screens/guardar";
+import Guardar from "./screens/Guardar";
 import Editar from "./screens/Editar";
 
 

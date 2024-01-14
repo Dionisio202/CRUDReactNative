@@ -1,8 +1,7 @@
 import { useNavigation } from "@react-navigation/native";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Alert, FlatList, Pressable, StyleSheet, Text, View,Modal,TextInput } from "react-native";
-import { Button, TouchableOpacity } from "react-native-web";
+import { Alert, FlatList, Pressable, StyleSheet, Text, View,Modal,TextInput,TouchableOpacity} from "react-native";
 import { useIsFocused } from '@react-navigation/native';
 
 
